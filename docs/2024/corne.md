@@ -25,14 +25,14 @@ I decided I would use the [cho-corne-ice](https://github.com/e3b0c442/crkbd/tree
 
 ### Hotswap sockets
 
-![PCB Before Solder Switch](/images/pcb_before_switch.jpg)
-![PCB After Solder Switch](/images/pcb_after_switch.jpg)
+![PCB Before Solder Switch]({{site.baseurl}}/images/pcb_before_switch.jpg)
+![PCB After Solder Switch]({{site.baseurl}}/images/pcb_after_switch.jpg)
 
 ### MCU, Reset switch, Power switch, Battery connector
 
-![PCB Before Solder MCU](/images/pcb_before_mcu.jpg)
-![PCB After Solder MCU Top](/images/pcb_after_mcu_top.jpg)
-![PCB After Solder MCU Bottom](/images/pcb_after_mcu_bottom.jpg)
+![PCB Before Solder MCU]({{site.baseurl}}/images/pcb_before_mcu.jpg)
+![PCB After Solder MCU Top]({{site.baseurl}}/images/pcb_after_mcu_top.jpg)
+![PCB After Solder MCU Bottom]({{site.baseurl}}/images/pcb_after_mcu_bottom.jpg)
 
 ## The Case
 
