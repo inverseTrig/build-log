@@ -25,22 +25,44 @@ I decided I would use the [cho-corne-ice](https://github.com/e3b0c442/crkbd/tree
 
 ### Hotswap sockets
 
-![PCB Before Solder Switch]({{site.baseurl}}/images/pcb_before_switch.jpg)
-![PCB After Solder Switch]({{site.baseurl}}/images/pcb_after_switch.jpg)
+![PCB Before Solder Switch]({{site.baseurl}}/images/2024/corne/pcb_before_switch.jpg)
+![PCB After Solder Switch]({{site.baseurl}}/images/2024/corne/pcb_after_switch.jpg)
 
 ### MCU, Reset switch, Power switch, Battery connector
 
-![PCB Before Solder MCU]({{site.baseurl}}/images/pcb_before_mcu.jpg)
-![PCB After Solder MCU Top]({{site.baseurl}}/images/pcb_after_mcu_top.jpg)
-![PCB After Solder MCU Bottom]({{site.baseurl}}/images/pcb_after_mcu_bottom.jpg)
+![PCB Before Solder MCU]({{site.baseurl}}/images/2024/corne/pcb_before_mcu.jpg)
+![PCB After Solder MCU Top]({{site.baseurl}}/images/2024/corne/pcb_after_mcu_top.jpg)
+![PCB After Solder MCU Bottom]({{site.baseurl}}/images/2024/corne/pcb_after_mcu_bottom.jpg)
 
 ## The Case
+
+I didn't want to design a case by scratch but had very specific requirements (what a choosing beggar). Below are the few points that mattered most to me:
+
+- Low profile (not bulky)
+- No tenting
+- Easy access to the power/reset switch for the PCB I chose above
+
+While I was prepared to make some changes to achieve the above requirements, I really wanted to put in the least amount of work. So maybe just something that can be done in the slicer.
 
 ### Available options
 
 ### The decision
 
+I decided on the case in the link below: (download, zip it up, and add it in this github repo)
+
+https://www.thingiverse.com/thing:4549765
+
+The access to the reset switch was mechanically functional, but the power switch would be completely hidden, thus the front portion was modified in the slicer to open up access to the power slider switch. Then the thickness of the case was reduced by trimming a few mm off the bottom.
+
 ### Printing and test fitting
+
+![Case bare]({{site.baseurl}}/images/2024/corne/case_bare.jpg)
+![Case with PCB]({{site.baseurl}}/images/2024/corne/case_with_pcb.jpg)
+![Case MCU]({{site.baseurl}}/images/2024/corne/case_mcu.jpg)
+![Case angle front]({{site.baseurl}}/images/2024/corne/case_angle_front.jpg)
+![Case power switch]({{site.baseurl}}/images/2024/corne/case_power.jpg)
+![Case reset switch]({{site.baseurl}}/images/2024/corne/case_reset.jpg)
+![Case overview]({{site.baseurl}}/images/2024/corne/case_overview.jpg)
 
 ## Switch
 
